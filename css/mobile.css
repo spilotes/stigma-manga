@@ -1,0 +1,58 @@
+@media (max-width: 414px) {
+  .logo {
+    top: 12vh;
+  }
+
+  .yo {
+    width: 50vw;
+  }
+
+  .title {
+    top: 36.5vh;
+  }
+
+  .title h2 {
+    font-size: 2.2rem;
+  }
+
+  .puck {
+    top: 8.5vh;
+    left: 65%;
+  }
+
+  .puck_img {
+    width: 15vw;
+  }
+
+  .container {
+    width: 50vw;
+    max-width: 50vw;
+    top: 56vh;
+    left: 50%;
+    text-align: center;
+  }
+
+  .container span {
+    font-size: 0.8rem;
+    filter: drop-shadow(0 0 0.3rem #000);
+  }
+
+  #generate-quote-button {
+    bottom: 17vh;
+  }
+
+  .ano {
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 0.75rem;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
+
+  .ano span {
+    font-size: 1rem;
+    font-family: "Nanum Pen Script", cursive;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
+}

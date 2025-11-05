@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #c9d1d9;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+html,
+body {
+  height: 100%; /* garante 100% da altura do viewport */
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #3c1414, #220a0a);
+  min-height: 100vh; /* garante que preencha a tela */
+  overflow-x: hidden; /* impede scroll horizontal */
+  overflow-y: auto;
+}
+
+.salutation {
+  position: absolute;
+  top: 4vh;
+  font-size: 1.4rem;
+  font-family: "Nanum Pen Script", cursive;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.logo {
+  position: absolute;
+  top: 12vh;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 9999;
+}
+
+.yo {
+  width: 15vw;
+  cursor: pointer;
+  border-bottom: 2.5rem solid #000;
+  filter: drop-shadow(0 0 0.4rem #000);
+  transition: all 1s ease-in-out;
+}
+
+.title {
+  position: absolute;
+  top: 47.5vh;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  filter: drop-shadow(0 0 0.5rem #000);
+}
+
+.title h2 {
+  font-size: 2.3rem;
+  font-weight: 200;
+
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.puck {
+  position: absolute;
+  top: 7.5vh;
+  left: 55%;
+  transform: translate(-50%);
+  z-index: 99999;
+}
+
+.puck_img {
+  width: 5vw;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.4rem #000);
+  transition: all 1s ease-in-out;
+}
+
+.puck_img:hover {
+  filter: drop-shadow(0 0 0.4rem #c9d1d9);
+}
+
+.container {
+  position: absolute;
+  width: 15vw;
+  max-width: 15vw;
+  top: 68.5vh;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.container span {
+  font-size: 0.8rem;
+  filter: drop-shadow(0 0 0.3rem #000);
+}
+
+#generate-quote-button {
+  position: absolute;
+  width: 15vw;
+  min-width: 180px;
+  height: 2.8rem;
+  bottom: 7vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.4rem;
+  font-family: "Nanum Pen Script", cursive;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #121212, #202020);
+  border: none;
+  border-radius: 0.4rem;
+  filter: drop-shadow(0 0 0.5rem #000);
+  transition: all 0.4s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out 2.7s forwards,
+    pulseGlow 2s infinite alternate;
+  opacity: 0; /* começa invisível até a animação iniciar */
+  cursor: pointer;
+}
+
+/* animação de aparição */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* animação suave de brilho pulsante */
+@keyframes pulseGlow {
+  from {
+    box-shadow: 0 0 0.3rem #000;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
+  to {
+    box-shadow: 0 0 0.5rem #c9d1d9;
+    filter: drop-shadow(0 0 0.5rem #c9d1d9);
+  }
+}
+
+/* estado hover apenas visual — sem clique */
+#generate-quote-button:hover {
+  background: linear-gradient(135deg, #080808, #121212);
+}
+
+.ano {
+  position: absolute;
+  bottom: 1vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.75rem;
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.ano span {
+  font-size: 1rem;
+  font-family: "Nanum Pen Script", cursive;
+  filter: drop-shadow(0 0 0.2rem #000);
+}

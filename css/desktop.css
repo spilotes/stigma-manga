@@ -1,0 +1,17 @@
+@media screen and (min-width: 1400px) {
+  .title {
+    top: 41.5vh;
+  }
+
+  .container {
+    top: 64.5vh;
+  }
+
+  #generate-quote-button {
+    position: absolute;
+    width: 15vw;
+    min-width: 180px;
+    height: 2.8rem;
+    bottom: 15vh;
+  }
+}
