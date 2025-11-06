@@ -113,7 +113,7 @@ body {
   width: 15vw;
   min-width: 180px;
   height: 2.8rem;
-  bottom: 5.5vh;
+  bottom: 6.5vh;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.4rem;
@@ -168,4 +168,5 @@ body {
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
 
