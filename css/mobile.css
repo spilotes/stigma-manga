@@ -15,6 +15,11 @@
     font-size: 2.2rem;
   }
 
+.title span {
+  top: 50vh;
+  font-size: 0.8rem;
+}
+
   .puck {
     top: 8.5vh;
     left: 65%;
