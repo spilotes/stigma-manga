@@ -70,7 +70,7 @@ body {
   top: 50,5vh;
   left: 50%;
   transform: translate(-50%);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-weight: 200;
 }
 
@@ -97,7 +97,7 @@ body {
   position: absolute;
   width: 15vw;
   max-width: 15vw;
-  top: 68.5vh;
+  top: 70vh;
   left: 50%;
   transform: translate(-50%);
   text-align: center;
@@ -113,7 +113,7 @@ body {
   width: 15vw;
   min-width: 180px;
   height: 2.8rem;
-  bottom: 7vh;
+  bottom: 5.5vh;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.4rem;
@@ -168,3 +168,4 @@ body {
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
