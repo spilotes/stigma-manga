@@ -67,7 +67,7 @@ body {
 
 .title span {
   position: absolute;
-  top: 50,5vh;
+  top: 50vh;
   left: 50%;
   transform: translate(-50%);
   font-size: 0.6rem;
@@ -113,7 +113,7 @@ body {
   width: 15vw;
   min-width: 180px;
   height: 2.8rem;
-  bottom: 6.5vh;
+  bottom: 7vh;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.4rem;
@@ -168,5 +168,6 @@ body {
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
 
 
