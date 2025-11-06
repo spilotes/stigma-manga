@@ -16,7 +16,7 @@
   }
 
 .title span {
-  top: 4vh;
+  top: 6vh;
   font-size: 0.9rem;
 }
 
@@ -61,6 +61,7 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
 
