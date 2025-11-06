@@ -32,7 +32,7 @@
   .container {
     width: 50vw;
     max-width: 50vw;
-    top: 58vh;
+    top: 60vh;
     left: 50%;
     text-align: center;
   }
@@ -43,7 +43,7 @@
   }
 
   #generate-quote-button {
-    bottom: 15vh;
+    bottom: 13vh;
   }
 
   .ano {
@@ -61,6 +61,7 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
 
