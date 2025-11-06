@@ -18,7 +18,7 @@ body {
   background: linear-gradient(to bottom, #3c1414, #220a0a);
   min-height: 100vh; /* garante que preencha a tela */
   overflow-x: hidden; /* impede scroll horizontal */
-  overflow-y: hidden;
+  overflow-y: hidden; /* impede scroll vertical */
 }
 
 .salutation {
@@ -168,6 +168,7 @@ body {
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
 
 
 
