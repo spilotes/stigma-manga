@@ -64,6 +64,16 @@ body {
   font-family: "Nanum Pen Script", cursive;
 }
 
+
+.title span {
+  position: absolute;
+  top: 50,5vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
 .puck {
   position: absolute;
   top: 7.5vh;
