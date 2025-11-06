@@ -3,6 +3,11 @@
     top: 41.5vh;
   }
 
+  .title span {
+  top: 6.5vh;
+  font-size: 0.7rem;
+}
+
   .container {
     top: 64.5vh;
   }
@@ -15,3 +20,4 @@
     bottom: 15vh;
   }
 }
+
